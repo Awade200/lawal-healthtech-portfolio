@@ -31,116 +31,202 @@
       </div>
 
       <figure class="hero-visual">
-        <img src="assets/clinic-operations-demo.png" alt="Illustrative privacy-safe view of the Sulawog Clinic operations dashboard" />
+        <img src="assets/clinic-operations-demo.jpg" alt="Illustrative privacy-safe view of the Sulawog Clinic operations dashboard" />
         <figcaption>Privacy-safe illustrative view based on the real Sulawog clinic workflow.</figcaption>
       </figure>
     </section>
 
     <section class="edge-section">
       <div class="shell">
-        <div class="section-rule"><span>This is the work I do</span></div>
+        <div class="section-rule"><span></span><p>This is my edge</p><span></span></div>
         <div class="edge-grid">
-          <article><span class="edge-index">01</span><p>Healthcare operations</p><strong>Patient journeys, clinic workflows, records and follow-up.</strong></article>
-          <article><span class="edge-index">02</span><p>Product systems</p><strong>Requirements, workflows, roles, testing and technical collaboration.</strong></article>
-          <article><span class="edge-index">03</span><p>Data & growth</p><strong>Acquisition, conversion, demand, revenue and operational reporting.</strong></article>
+          <article class="edge-card">
+            <div class="edge-icon">+</div>
+            <div><small>Healthcare Operations</small><h3>Patient journeys, care workflows and frontline reality</h3></div>
+          </article>
+          <article class="edge-card">
+            <div class="edge-icon">□</div>
+            <div><small>Product Systems</small><h3>Requirements, roles, workflows and technical collaboration</h3></div>
+          </article>
+          <article class="edge-card">
+            <div class="edge-icon">↗</div>
+            <div><small>Data & Growth</small><h3>Acquisition, conversion, demand and operational reporting</h3></div>
+          </article>
         </div>
       </div>
     </section>
 
     <section class="work shell" id="work">
-      <div class="section-kicker">Selected work</div>
-      <h2>Three parts of one operating story.</h2>
-      <p class="section-intro">At Sulawog, my job was broader than shipping software. I was responsible for helping the organisation run more clearly and grow more deliberately. These projects show where product thinking became part of that work.</p>
+      <div class="section-intro">
+        <p class="kicker">Selected work</p>
+        <h2>Three parts of the same job: make the operation clearer, make the product useful, and make growth measurable.</h2>
+      </div>
 
-      <article class="case case-featured">
-        <div class="case-heading">
-          <div><span class="case-number">01 / SULAWOG CLINIC</span><h3>Designing the clinic around the patient journey.</h3></div>
-          <div class="case-meta"><span>HealthTech</span><span>Product operations</span><span>Clinical workflow</span></div>
+      <article class="project project-featured" id="clinic-case">
+        <div class="project-topline">
+          <span>01 / HealthTech Product</span>
+          <span>Sulawog Clinic Management System</span>
         </div>
-        <p class="case-lead">The clinic needed more than a patient list. It needed a reliable way to follow someone from first contact through consultation, treatment, payment and continued care — while giving each staff member the information they actually needed.</p>
+        <div class="project-head">
+          <h3>Designing the clinic around the full patient journey.</h3>
+          <p>I worked from inside Sulawog operations to turn the real clinic flow into a digital system — from registration and walk-in check-in through consultation, treatment, billing and follow-up.</p>
+        </div>
 
-        <div class="case-facts">
+        <div class="case-meta">
           <div><small>My role</small><strong>Operations Manager with product responsibility</strong></div>
-          <div><small>Worked with</small><strong>CEO · clinic team · front desk · therapists · engineer · users</strong></div>
-          <div><small>What mattered</small><strong>Continuity · usability · records · visibility</strong></div>
+          <div><small>Worked with</small><strong>CEO · Engineer · Front desk · Clinic team · Accounting · Users</strong></div>
+          <div><small>Focus</small><strong>Workflow · Records · Billing · Follow-up · Analytics</strong></div>
         </div>
 
-        <figure class="case-image wide"><img src="assets/clinic-operations-demo.png" alt="Privacy-safe demo of Sulawog Clinic operations dashboard"/><figcaption>Management view: patient flow, activity and operational signals in one place. Demo values are illustrative rather than real patient or financial data.</figcaption></figure>
+        <div class="patient-flow" aria-label="Patient workflow">
+          <span>Register</span><b>→</b><span>Walk-in / Book</span><b>→</b><span>Check in</span><b>→</b><span>Consult</span><b>→</b><span>Vitals & notes</span><b>→</b><span>Prescription / therapy</span><b>→</b><span>Bill & pay</span><b>→</b><span>Checkout</span><b>→</b><span>Follow-up</span>
+        </div>
 
-        <div class="story-grid">
-          <div class="story-label">The problem</div>
-          <div class="story-copy">
-            <p>Before the system, patient activity was not documented consistently enough to make follow-up or management analysis dependable. It was difficult to keep tabs on patients after a visit, trace who referred them, or build a clear picture of what happened across the full clinic journey.</p>
-            <p>That also made growth harder to understand. If someone came through a recommendation, there was no dependable referral trail connecting the referrer, the new patient and any reward or future follow-up.</p>
+        <div class="case-grid">
+          <section>
+            <p class="case-label">The problem</p>
+            <h4>There was no reliable way to keep the patient journey together.</h4>
+            <p>Before the system, documentation was inconsistent and follow-up depended too much on people remembering what happened. It was difficult to keep tabs on returning patients, understand referral sources, or connect clinical activity with the wider operating picture.</p>
+          </section>
+          <section>
+            <p class="case-label">What I did</p>
+            <h4>I mapped the work before defining the product.</h4>
+            <p>I broke the clinic into the real jobs people needed to complete, drafted the workflow and requirements, discussed priorities with management and clinic users, and worked with the engineer to review, test and refine the implementation.</p>
+          </section>
+          <section>
+            <p class="case-label">A decision that changed</p>
+            <h4>Appointments looked right on paper. Walk-ins matched reality.</h4>
+            <p>The first version leaned too heavily on appointment booking. Usage showed that the clinic handled far more walk-ins. We changed the flow so a patient could arrive, be found or registered, checked in and moved through care without forcing an appointment-first model.</p>
+          </section>
+          <section>
+            <p class="case-label">What became clearer</p>
+            <h4>Patient history, status and next action could live in one workflow.</h4>
+            <p>The system created a clearer operating view across patient records, visits, consultation notes, vitals, therapy, prescriptions, billing and payment. It also gave management a better base for tracking activity, referrals and follow-up.</p>
+          </section>
+        </div>
+
+        <div class="visual-pair">
+          <figure>
+            <img src="assets/clinic-billing-demo.jpg" alt="Privacy-safe demo billing and payment workflow for a clinic patient" />
+            <figcaption><strong>Billing & payment</strong><span>Demo data used to protect patient information.</span></figcaption>
+          </figure>
+          <figure>
+            <img src="assets/clinic-followup-concept.jpg" alt="Illustrative follow-up and care continuity concept for the clinic system" />
+            <figcaption><strong>Follow-up & referral concept</strong><span>Illustrative next-iteration concept, not presented as a live feature.</span></figcaption>
+          </figure>
+        </div>
+
+        <div class="case-bottom">
+          <div>
+            <p class="case-label">What I learned</p>
+            <p>Operational software gets better when real use is allowed to challenge the original assumptions. The walk-in change is the clearest example: the product had to follow the clinic, not force the clinic to follow the product.</p>
           </div>
-        </div>
-
-        <div class="journey" aria-label="Clinic patient journey">
-          <span>Registration</span><b>→</b><span>Walk-in / appointment</span><b>→</b><span>Check-in</span><b>→</b><span>Consultation</span><b>→</b><span>Vitals & notes</span><b>→</b><span>Prescription / therapy</span><b>→</b><span>Billing</span><b>→</b><span>Payment</span><b>→</b><span>Checkout</span><b>→</b><span>Follow-up</span>
-        </div>
-
-        <div class="story-grid">
-          <div class="story-label">A decision that changed</div>
-          <div class="story-copy">
-            <p>The first version was shaped too heavily around appointment booking. In practice, staff and patients were not behaving that way — the clinic handled far more walk-ins.</p>
-            <p>We changed the flow rather than forcing users to fit the original assumption. Walk-in registration and check-in became part of the normal path. This was one of the moments that reinforced how important it was to watch the operation after launch, not just define it before build.</p>
-          </div>
-        </div>
-
-        <div class="decision-grid">
-          <article><small>01</small><h4>Start with the operation</h4><p>I mapped what actually happened from reception through consultation, treatment, billing and follow-up before turning the stages into product requirements.</p></article>
-          <article><small>02</small><h4>Keep the patient history connected</h4><p>A returning patient should not start again. Visits, notes, vitals, therapy, prescriptions and billing needed to remain attached to the patient record.</p></article>
-          <article><small>03</small><h4>Design around different users</h4><p>Reception, clinical staff, therapy, accounting and management do not need the same view. The workflow had to support responsibility without exposing unnecessary complexity.</p></article>
-          <article><small>04</small><h4>Measure what management needs</h4><p>The system was designed to make patient activity, referral source, service use, payments, outstanding balances and growth trends easier to analyse.</p></article>
-        </div>
-
-        <div class="image-pair">
-          <figure class="case-image"><img src="assets/clinic-billing-demo.png" alt="Privacy-safe illustrative billing and payment view"/><figcaption>Billing is part of the patient history rather than a separate disconnected record. Demo data only.</figcaption></figure>
-          <figure class="case-image"><img src="assets/clinic-followup-concept.png" alt="Concept screen for follow-up care and referral tracking"/><figcaption>Concept direction for follow-up, contact attempts and referral rewards. This is explicitly a proposed extension, not presented as a shipped feature.</figcaption></figure>
-        </div>
-
-        <div class="story-grid outcome">
-          <div class="story-label">What changed</div>
-          <div class="story-copy">
-            <p>Clinic information moved toward a single patient-centred operating flow rather than disconnected pieces of documentation. Staff could work from the same underlying record, while management gained clearer visibility into patient activity and the commercial side of the clinic.</p>
-            <p>The project also created a better foundation for the next questions: Which referral sources bring people in? Where do patients drop out? Who needs follow-up? Which services are being used? Those are the questions I want the product to make easier to answer.</p>
+          <div>
+            <p class="case-label">Next iteration</p>
+            <p>Referral-source tracking, structured follow-up, care continuity and incentive logic are natural extensions because they connect patient experience with retention and growth.</p>
           </div>
         </div>
       </article>
 
-      <article class="case compact">
-        <div class="case-heading"><div><span class="case-number">02 / SULAWOG</span><h3>Understanding what was driving growth — and building the operation around it.</h3></div><div class="case-meta"><span>Growth</span><span>Product operations</span><span>Data</span></div></div>
-        <p class="case-lead">Growth was not just a marketing question. I needed to understand demand, visibility, enquiries, conversion, production and accounting together.</p>
-        <div class="four-up">
-          <article><small>Product</small><strong>Demand · product mix · pricing · availability</strong></article>
-          <article><small>Acquisition</small><strong>Visibility · referrals · enquiries · partnerships</strong></article>
-          <article><small>Conversion</small><strong>Enquiry → consultation / purchase → follow-up</strong></article>
-          <article><small>Commercial</small><strong>Accounting · revenue trends · outstanding balances</strong></article>
+      <article class="project project-compact" id="growth-case">
+        <div class="project-topline"><span>02 / Growth & Product Operations</span><span>Sulawog</span></div>
+        <div class="project-head compact-head">
+          <h3>Understanding what was driving demand — and building the operation around it.</h3>
+          <p>Growth work meant understanding the products, where enquiries came from, what people actually wanted, what the organisation could fulfil, and what information management needed to make better decisions.</p>
         </div>
-        <div class="story-grid"><div class="story-label">How I approached it</div><div class="story-copy"><p>I worked across clinic, product, sales, marketing and accounting rather than treating growth as a single-channel problem. We began putting clearer enquiry and follow-up structures in place, tying marketing activity to meaningful actions such as consultations, clinic visits and purchases.</p><p>A referral model also became part of the growth direction: capture who referred a new patient, then make it possible to recognise the referrer with an agreed clinic benefit such as a check-up or promotional service. The important part is the tracking — without that, the programme cannot be measured or managed properly.</p></div></div>
-        <div class="note"><strong>Impact reporting:</strong> I am keeping exact growth figures off this public version until the underlying accounting periods are reconciled. The portfolio will use verified ranges or percentage change rather than impressive-looking numbers that cannot be defended.</div>
+        <div class="two-flows">
+          <div class="mini-flow"><strong>Customer journey</strong><span>Visibility → Enquiry → Consultation / Product request → Purchase / Visit → Follow-up</span></div>
+          <div class="mini-flow"><strong>Operating journey</strong><span>Demand → Stock → Production → Availability → Sales → Accounting</span></div>
+        </div>
+        <div class="three-cols">
+          <div><small>Growth</small><h4>Make acquisition visible</h4><p>Move from “people are messaging us” to knowing source, interest, status, follow-up and next action.</p></div>
+          <div><small>Product</small><h4>Learn what people request</h4><p>Use enquiry and sales patterns to understand which products and services need attention, visibility or production support.</p></div>
+          <div><small>Commercial</small><h4>Connect activity to the business</h4><p>Bring clinic activity, product demand and accounting information into management decisions without relying on surface-level vanity metrics.</p></div>
+        </div>
+        <div class="referral-note"><strong>Referral growth idea</strong><p>Capture who referred a patient, keep the relationship attached to the patient record, and make rewards such as complimentary checks traceable rather than informal.</p></div>
       </article>
 
-      <article class="case compact">
-        <div class="case-heading"><div><span class="case-number">03 / SULAWOG</span><h3>Making the organisation easier to control as it grew.</h3></div><div class="case-meta"><span>Internal systems</span><span>Inventory</span><span>Process</span></div></div>
-        <p class="case-lead">The operational question was simple: can management tell what we have, where it is, what moved, what sold, what is outstanding and what needs attention without rebuilding the picture manually?</p>
-        <div class="journey ops"><span>Demand</span><b>→</b><span>Production / stock-in</span><b>→</b><span>Location</span><b>→</b><span>Sale / transfer</span><b>→</b><span>Accounting</span><b>→</b><span>Reporting</span></div>
-        <div class="story-grid"><div class="story-label">The system behind the work</div><div class="story-copy"><p>I helped define operational workflows for inventory, locations, movements, customer balances, corrections and management reporting. The aim was not to create another dashboard; it was to reduce the amount of organisational knowledge that lived only in people's heads or separate records.</p><p>User feedback changed this work too. The control centre went through several iterations as staff needs became clearer — particularly around how stock movement, account balances and corrections should be represented.</p></div></div>
+      <article class="project project-compact" id="ops-case">
+        <div class="project-topline"><span>03 / Operational Systems</span><span>Sulawog</span></div>
+        <div class="project-head compact-head">
+          <h3>Making stock, accounting and operational control easier to trust.</h3>
+          <p>As the organisation grew, the problem was not simply recording more information. It was knowing what was in stock, where it was, what had moved, what had sold, what was outstanding and what management needed to act on.</p>
+        </div>
+        <div class="ops-board">
+          <div><span>01</span><strong>Inventory by location</strong><p>Keep stock tied to where it physically sits.</p></div>
+          <div><span>02</span><strong>Movements & counts</strong><p>Record stock in, sales, transfers and adjustments.</p></div>
+          <div><span>03</span><strong>Customer balances</strong><p>Keep outstanding accounts visible for follow-up.</p></div>
+          <div><span>04</span><strong>Accounting visibility</strong><p>Separate revenue, expenses and reconciliation from guesswork.</p></div>
+          <div><span>05</span><strong>Corrections & controls</strong><p>Make changes traceable instead of silently overwriting records.</p></div>
+          <div><span>06</span><strong>Management reporting</strong><p>Show the right level of information to the right audience.</p></div>
+        </div>
       </article>
     </section>
 
-    <section class="experience-band" id="experience"><div class="shell"><div class="section-kicker">Experience</div><div class="timeline">
-      <article><div><h3>Sulawog Tradomedical Ltd</h3><p>Operations Manager</p></div><p>Responsible for improving how the organisation operates and grows across clinic services, healthcare products, internal systems, teams and management information.</p><span>Healthcare · Operations · Product</span></article>
-      <article><div><h3>Swanton Care</h3><p>Support Worker</p></div><p>Frontline UK care experience involving person-centred support, safeguarding, risk, documentation and communication across care teams.</p><a href="https://www.swantoncare.com/" target="_blank" rel="noreferrer">swantoncare.com ↗</a></article>
-    </div></div></section>
+    <section class="experience-section" id="experience">
+      <div class="shell experience-grid">
+        <div>
+          <p class="kicker">Experience</p>
+          <h2>I came into product through operations.</h2>
+        </div>
+        <div class="timeline">
+          <article>
+            <div class="time-head"><h3>Sulawog Tradomedical Ltd</h3><span>Operations Manager · Product responsibility</span></div>
+            <p>Responsible for improving how the organisation operates and grows across clinic services, product processes, internal systems, cross-functional coordination and management visibility.</p>
+          </article>
+          <article>
+            <div class="time-head"><h3><a href="https://www.swantoncare.com/" target="_blank" rel="noreferrer">Swanton Care ↗</a></h3><span>Support Worker · UK</span></div>
+            <p>Frontline care experience involving person-centred support, safeguarding, risk, documentation and communication across a regulated care environment.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-    <section class="background shell" id="background"><div class="section-kicker">Background</div><div class="background-grid"><div><h2>Science, healthcare and the systems behind them.</h2></div><div><p>I came into product work through operations rather than through a conventional software path. That matters to me. I am usually interested in why the process works the way it does, what information people need, and what happens when the real operation does not match the original plan.</p><div class="education"><article><small>University of Greenwich</small><strong>MSc Biotechnology — Merit</strong></article><article><small>Adeleke University</small><strong>BSc Biochemistry</strong></article></div></div></div></section>
+    <section class="background shell" id="background">
+      <div class="background-copy">
+        <p class="kicker">Science + healthcare</p>
+        <h2>The domain matters to me because I have worked inside it.</h2>
+        <p>My science background influences how I approach evidence, data and healthcare products. My operations work keeps me close to how services actually function, and frontline care keeps the user impact real.</p>
+      </div>
+      <div class="background-cards">
+        <article><small>Education</small><h3>MSc Biotechnology — Merit</h3><p>University of Greenwich</p></article>
+        <article><small>Education</small><h3>BSc Biochemistry</h3><p>Adeleke University</p></article>
+        <article><small>How I work</small><h3>Evidence before assumptions</h3><p>Understand the workflow, test what people actually do, then improve the system around that reality.</p></article>
+      </div>
+    </section>
 
-    <section class="skills"><div class="shell"><div class="section-kicker">How I work</div><div class="skills-grid"><article><small>Understand</small><strong>User needs<br/>Operational research<br/>Workflow mapping</strong></article><article><small>Shape</small><strong>Requirements<br/>User journeys<br/>Prioritisation & scope</strong></article><article><small>Deliver</small><strong>Cross-team coordination<br/>Technical collaboration<br/>Testing & iteration</strong></article><article><small>Measure</small><strong>Operational reporting<br/>Conversion & demand<br/>Commercial signals</strong></article></div><p class="tools">Working tools include Figma, Jira, Notion, GitHub, Supabase, Vercel, Microsoft 365 and AI-assisted research/product workflows.</p></div></section>
+    <section class="working-style">
+      <div class="shell">
+        <div class="section-intro small-intro">
+          <p class="kicker">Working style</p>
+          <h2>The skills are in the work, not in a logo wall.</h2>
+        </div>
+        <div class="skill-grid">
+          <div><span>01</span><h3>Understand</h3><p>User needs · operational research · workflow mapping</p></div>
+          <div><span>02</span><h3>Shape</h3><p>Requirements · user journeys · prioritisation · scope</p></div>
+          <div><span>03</span><h3>Deliver</h3><p>Stakeholder coordination · engineering collaboration · testing · iteration</p></div>
+          <div><span>04</span><h3>Measure</h3><p>Operational reporting · conversion · demand · revenue · service activity</p></div>
+        </div>
+        <p class="tools">Working tools: Figma · Jira · Notion · GitHub · Supabase · Vercel · Microsoft 365 · AI-assisted research and delivery workflows</p>
+      </div>
+    </section>
 
-    <section class="contact shell" id="contact"><p class="section-kicker">Contact</p><h2>I am interested in HealthTech, healthcare product and product-operations roles.</h2><div class="contact-links"><a href="mailto:lawalsulaiman247@gmail.com">Email me ↗</a><a href="assets/Lawal_Sulaiman_Adetunji_CV.docx">Resume ↗</a><a href="https://github.com/Awade200" target="_blank" rel="noreferrer">GitHub ↗</a></div></section>
+    <section class="contact shell" id="contact">
+      <p class="kicker">Contact</p>
+      <h2>Interested in HealthTech, healthcare product or product-operations work?</h2>
+      <div class="contact-links">
+        <a href="mailto:lawalsulaiman247@gmail.com">Email me ↗</a>
+        <a href="assets/Lawal_Sulaiman_Adetunji_CV.docx">Download CV ↗</a>
+        <a href="https://github.com/Awade200" target="_blank" rel="noreferrer">GitHub ↗</a>
+      </div>
+    </section>
   </main>
-  <footer class="shell"><span>Lawal Sulaiman Adetunji</span><span>Product & Operations · HealthTech</span></footer>
+
+  <footer class="shell footer">
+    <span>Lawal Sulaiman Adetunji</span>
+    <span>HealthTech · Product & Operations</span>
+  </footer>
+
   <script src="app.js"></script>
 </body>
 </html>
