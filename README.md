@@ -4,6 +4,8 @@ I work at the intersection of **healthcare, product, operations and digital syst
 
 My background combines an MSc in Biotechnology, frontline care experience in the UK, operational leadership and hands-on work translating real workflows into digital products.
 
+![Privacy-safe preview of the clinic operations case study](assets/clinic-operations-demo.svg)
+
 ## Portfolio
 
 **Live portfolio:** https://lawal-healthtech-portfolio.vercel.app
